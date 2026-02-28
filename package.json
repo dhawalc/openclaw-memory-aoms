@@ -1,0 +1,40 @@
+{
+  "name": "openclaw-memory-aoms",
+  "version": "0.1.0",
+  "description": "AOMS HTTP memory backend plugin for OpenClaw",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "memory",
+    "aoms",
+    "ai-memory"
+  ],
+  "author": "Dhawal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/openclaw-memory-aoms.git"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.2.0"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
