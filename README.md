@@ -1,3 +1,5 @@
+> ⚠️ **DEPRECATED** — This plugin is not wired into the live OpenClaw↔AOMS integration, and its tool payloads have drifted from the current AOMS API (v1.2.0): `memory_write`/`memory_weight` return HTTP 422. Kept for reference only — see [DEPRECATED.md](./DEPRECATED.md). The live AOMS source of truth is [`dhawalc/cortex-mem`](https://github.com/dhawalc/cortex-mem).
+
 🌐 **Live Demo:** [dhawalc.github.io/openclaw-memory-aoms](https://dhawalc.github.io/openclaw-memory-aoms/)
 
 # openclaw-memory-aoms
